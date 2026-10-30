@@ -1,0 +1,16 @@
+
+HTML FILES
+git add index.html
+
+
+CSS FILES
+git add index_css.css
+
+JAVASCRIPT FILES
+
+
+
+
+OTHERS
+git add git_commands.txt
+
