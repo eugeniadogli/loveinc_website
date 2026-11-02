@@ -1,15 +1,225 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love Incorporated</title>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Love Incorporated</title>
+    <meta name="theme-color" content="#211a19">
+    <meta name="description" content="A church family learning to follow Jesus, care for one another, and put love into action.">
+    <title>LOVE INC. — Faith. Love. Shared.</title>
+    <!-- The page-wide theme is in index_css.css; .hero uses hero-fire.jpg. -->
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="index_css.css">
+</head>
+<body>
+    <!-- Header and navigation styling: .site-header, .header-inner, .main-nav, .wordmark, and .header-cta. -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="wordmark" href="#home" aria-label="LOVE INC. home">LOVE INC<span>.</span></a>
+            <nav class="main-nav" aria-label="Main navigation">
+                <a class="active" href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#programs">Programs</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a class="button button-red header-cta" href="#visit">I'm new here <span aria-hidden="true">↗</span></a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Welcome banner styling: .hero, .hero-content, .hero-script, .hero-copy, and .hero-note. -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <p class="eyebrow eyebrow-light">Welcome to</p>
+                <h1>LOVE INC<span>.</span></h1>
+                <p class="hero-script">Our Slogan here (eg. We are a city set on a hill).</p>
+                <p class="hero-copy">A church family learning to follow Jesus, care for one another, and put love into action.</p>
+                <a class="button button-red" href="#about">Get to know us <span aria-hidden="true">↗</span></a>
+                <p class="hero-note">LOVE INCORPORATED<br>EST. 2022</p>
+            </div>
+        </section>
+
+        <!-- Red photo gallery styling: .gallery, .gallery-grid, .gallery-card, and .gallery-image. -->
+        <section class="gallery section-red" aria-labelledby="gallery-title">
+            <div class="container">
+                <p class="eyebrow eyebrow-light">Love Inc gallery</p>
+                <h2 class="section-title gallery-title" id="gallery-title">Pictures from<br>services</h2>
+                <div class="gallery-grid">
+                    <article class="gallery-card">
+                        <!-- .image-placeholder sets the black fill and rounded corners; .gallery-image sets its shape. -->
+                        <div class="image-placeholder gallery-image" role="img" aria-label="Black image placeholder"></div>
+                        <p class="eyebrow eyebrow-light">[DATE HERE]</p>
+                        
+                    </article>
+                    <article class="gallery-card">
+                        <div class="image-placeholder gallery-image" role="img" aria-label="Black image placeholder"></div>
+                        <p class="eyebrow eyebrow-light">[DATE HERE]</p>
+                        
+                    </article>
+                    <article class="gallery-card">
+                        <div class="image-placeholder gallery-image" role="img" aria-label="Black image placeholder"></div>
+                        <p class="eyebrow eyebrow-light">[DATE HERE]</p>
+                        
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About and values styling: .about-grid, .about-copy, .about-figure, .about-image, and .values-row. -->
+        <section class="about section-blush" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-copy">
+                        <p class="eyebrow">About us</p>
+                        <h2>Love is more<br>than a <em>word.</em></h2>
+                        <p>At LOVE INC, we believe church is a people, not just a place. We're here to grow in faith, make space for one another, and share the love of Jesus in everyday life.</p>
+                        <p>Whether faith is familiar or something you're just beginning to explore, there's room for your story.</p>
+                        <a class="text-link" href="#contact">More about LOVE INC <span aria-hidden="true">↗</span></a>
+                    </div>
+                    <figure class="about-figure">
+                        <div class="image-placeholder about-image" role="img" aria-label="Black image placeholder"></div>
+                        <figcaption>Around the table. Beyond the walls.</figcaption>
+                    </figure>
+                </div>
+                <div class="values-row" aria-label="Our values">
+                    <p>Rooted in faith.</p>
+                    <p>Open in heart.</p>
+                    <p>Active in love.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Program cards styling: .programs-heading, .program-grid, .program-card, and .program-image. -->
+        <section class="programs" id="programs">
+            <div class="container">
+                <p class="eyebrow">Programs</p>
+                <div class="programs-heading">
+                    <h2>Faith for the everyday.</h2>
+                    <p>There's more than one way to get involved. Find a next step that feels right for you.</p>
+                </div>
+                <div class="program-grid">
+                    <article class="program-card">
+                        <!-- .image-placeholder sets the black fill and rounded corners; .program-image sets its shape. -->
+                        <div class="image-placeholder program-image" role="img" aria-label="Black image placeholder"></div>
+                        <p class="eyebrow">Life together</p>
+                        <h3>Ashesi</h3>
+                        <p>A space to ask questions, open the Bible, and build meaningful friendships.</p>
+                        <a class="program-link" href="#contact">Find out more <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="program-card">
+                        <div class="image-placeholder program-image" role="img" aria-label="Black image placeholder"></div>
+                        <p class="eyebrow">Every generation</p>
+                        <h3>Legon (UG, Ghana)</h3>
+                        <p>Helping children and families explore faith, grow, and feel at home.</p>
+                        <a class="program-link" href="#contact">Find out more <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="program-card">
+                        <div class="image-placeholder program-image" role="img" aria-label="Black image placeholder"></div>
+                        <p class="eyebrow">You're not alone</p>
+                        <h3>KNUST</h3>
+                        <p>Find a listening ear, share a prayer, and take the next step with support.</p>
+                        <a class="program-link" href="#contact">Find out more <span aria-hidden="true">↗</span></a>
+                    </article>
+                    <article class="program-card">
+                        <div class="image-placeholder program-image" role="img" aria-label="Black image placeholder"></div>
+                        <p class="eyebrow">Love in action</p>
+                        <h3>UMAT</h3>
+                        <p>Bring your time and gifts to practical ways of caring for our neighbors.</p>
+                        <a class="program-link" href="#contact">Find out more <span aria-hidden="true">↗</span></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visit banner styling: .visit, .visit-inner, .visit-action, and .button-light. -->
+        <section class="visit section-red" id="visit">
+            <div class="container visit-inner">
+                <div>
+                    <p class="eyebrow eyebrow-light">Your next chapter</p>
+                    <h2>Come as you are.</h2>
+                    <p>No perfect people. No need to have it all figured out.</p>
+                </div>
+                <div class="visit-action">
+                    <a class="button button-light" href="#contact">Plan your visit <span aria-hidden="true">↗</span></a>
+                    <p>We'd love to help you feel at home.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact area and footer styling: .contact-grid, .contact-copy, .contact-form, and .site-footer. -->
+        <section class="contact section-dark" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-copy">
+                        <p class="eyebrow eyebrow-light">Contact</p>
+                        <h2>Let’s <em>connect.</em></h2>
+                        <p>New to church, looking for community, or in need of prayer? Start a conversation. You don't have to take the next step alone.</p>
+                        <div class="social-links" aria-label="LOVE INC social links">
+                            <a class="social-card" href="#contact" data-social-link>
+                                <span class="social-card-top">
+                                    <span class="social-name">Instagram</span>
+                                    <span class="social-arrow" aria-hidden="true">↗</span>
+                                </span>
+                                <span class="social-handle">@loveinc.global</span>
+                                <span class="social-description">Photos from our community</span>
+                            </a>
+                            <a class="social-card" href="#contact" data-social-link>
+                                <span class="social-card-top">
+                                    <span class="social-name">TikTok</span>
+                                    <span class="social-arrow" aria-hidden="true">↗</span>
+                                </span>
+                                <span class="social-handle">@loveinc.global</span>
+                                <span class="social-description">Clips and moments from LOVE INC</span>
+                            </a>
+                            <a class="social-card" href="#contact" data-social-link>
+                                <span class="social-card-top">
+                                    <span class="social-name">Telegram</span>
+                                    <span class="social-arrow" aria-hidden="true">↗</span>
+                                </span>
+                                <span class="social-handle">Community channel</span>
+                                <span class="social-description">Updates and announcements</span>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form" action="#contact" method="get">
+                        <h3>Say hello.</h3>
+                        <label for="name">Your name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
+                        <label for="email">Email address</label>
+                        <input id="email" name="email" type="email" placeholder="Your email address" autocomplete="email" required>
+                        <label for="message">Your message</label>
+                        <textarea id="message" name="message" placeholder="A question, a prayer request, or just a hello..." rows="4" required></textarea>
+                        <button class="button button-red" type="submit">Send message <span aria-hidden="true">↗</span></button>
+                        <p class="form-note">Your message is a first step. We’re glad you’re here.</p>
+                    </form>
+                </div>
+                <footer class="site-footer">
+                    <div class="footer-main">
+                        <div>
+                            <a class="wordmark footer-wordmark" href="#home">LOVE INC<span>.</span></a>
+                            <p>Faith. Love. Shared.</p>
+                        </div>
+                        <nav class="footer-nav" aria-label="Footer navigation">
+                            <a href="#home">Home</a>
+                            <a href="#about">About Us</a>
+                            <a href="#programs">Programs</a>
+                            <a href="#contact">Contact</a>
+                        </nav>
+                    </div>
+                    <div class="footer-bottom">
+                        <span>© LOVE INC.</span>
+                        <span>All are welcome.</span>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.querySelectorAll("[data-social-link]").forEach((link) => {
+            link.addEventListener("click", (event) => {
+                event.preventDefault();
+                window.alert("links yet to be added");
+            });
+        });
+    </script>
+</body>
+</html>
